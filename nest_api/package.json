@@ -1,5 +1,5 @@
 {
-  "name": "first-nestjs-api",
+  "name": "blog-backend",
   "version": "0.0.1",
   "description": "",
   "author": "",
@@ -23,7 +23,12 @@
   "dependencies": {
     "@nestjs/common": "^7.0.0",
     "@nestjs/core": "^7.0.0",
+    "@nestjs/mongoose": "^6.4.0",
     "@nestjs/platform-express": "^7.0.0",
+    "dotenv": "^8.2.0",
+    "express-jwt": "^5.3.3",
+    "jwks-rsa": "^1.8.0",
+    "mongoose": "^5.9.9",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "rxjs": "^6.5.4"
